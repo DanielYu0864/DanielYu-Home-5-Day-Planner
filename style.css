@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@400;700;900&display=swap');
+body {
+  font-family: 'Grenze Gotisch', cursive;
+  font-size: 16px;
+  line-height: 1;
+  background-color: #FFFACD;
+}
+
+textarea{
+  font-size: 20px;
+  background: transparent;
+  border: 1px;
+  border-color: #000000;
+  resize: none;
+  color: #000000;
+  border-left: 1.5px solid black;
+  padding: 10px;
+}
+
+.container {
+  background-color: #FFFACD;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: rgb(240, 230, 140);
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+.jumbotron h1 {
+  font-size: 100px;
+  font-weight: 900;
+}
+.description{
+  white-space: pre-wrap;
+}
+
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 1px solid white;;
+}
+
+.hour {
+  background-color: #FFFACD;
+  color: #000000;
+  border-top: 2px dashed #000000;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.past {
+  background-color: #F5DEB3;
+  color: white;
+}
+
+.present {
+  background-color: #FFB6C1;
+  color: white;
+}
+
+.future {
+  background-color: #B0C4DE;
+  color: white;
+}
+/* make saveBtn transition more clearly */
+.saveBtn {
+  font-size: 35px;
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #808000;
+  color: white;
+}
+/* change i:haver to :active */
+.saveBtn:active {
+  font-size: 20px;
+  transition: all .1s ease-in-out;
+}
