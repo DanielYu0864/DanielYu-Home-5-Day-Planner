@@ -17,6 +17,12 @@ textarea{
   padding: 10px;
 }
 
+.clean {
+  font-size: 25px;
+  float: right;
+  border-radius: 5px;
+}
+
 .container {
   background-color: #FFFACD;
 }
