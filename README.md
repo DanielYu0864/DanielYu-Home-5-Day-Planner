@@ -23,8 +23,8 @@
     * `array` to contain all the hours
     * `moment()` to display the date and carent time
     * `$().on("click")`:
-        - add event listener by [`jQuery`] for `button.saveBtn` to set up local storage
-        - add event listener by [`jQuery`] for `button.clean` to remove all events
+        - add event listener by [`jQuery`](https://jquery.com/) for `button.saveBtn` to set up local storage
+        - add event listener by [`jQuery`](https://jquery.com/) for `button.clean` to remove all events
     * `function`:
         - Remove hash tag in `array`
         - Get data from `local storage`
