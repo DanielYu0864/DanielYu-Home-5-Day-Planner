@@ -1,6 +1,6 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
-## Dayliy Scheduler explan
+## Dayliy Scheduler explain
 
 * This is a sample daily planner
 - The planer start a day from 6:00 AM to 8:00 PM.
